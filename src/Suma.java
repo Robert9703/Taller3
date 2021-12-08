@@ -9,4 +9,11 @@
  */
 public class Suma {
     
+    public float suma (float x,float y){
+        
+      float suma1 = x+y;
+        System.out.println(suma1);
+        return suma1;
+    }
+    
 }
