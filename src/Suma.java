@@ -1,19 +1,35 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 
 /**
  *
  * @author alexander
  */
+
+import java.util.Scanner;
+
+
 public class Suma {
+  
+ public static void main(String[] args) {
+
+  Scanner in = new Scanner(System.in);
+  float num1,num2,suma;
+
+  System.out.print("Inserte el primer numero: ");
+  num1 = in.nextFloat();
+  System.out.print("Inserte el segundo numero: ");
+  num2 = in.nextFloat();
+
+  suma = num1 + num2;
+  System.out.println("la suma es: "+suma);
+
+
+
+ 
     
-    public float suma (float x,float y){
-        
-      float suma1 = x+y;
-        System.out.println(suma1);
-        return suma1;
-    }
+  }
+
+    
+
+    
     
 }
