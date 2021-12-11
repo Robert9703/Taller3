@@ -1,21 +1,11 @@
-
-/**
- *
- * @author alexander
- */
+package taller3;
 
 import java.util.Scanner;
 
-import taller3.csuma;
+public class Resta {
+    static float num1,num2;
 
-
-
-
-public class Suma {
-
-  static float num1,num2;
-
-  static csuma obj = new csuma();
+  static cresta obj = new cresta();
   
  public static void main(String[] args) {
    pedirDatos();
@@ -26,7 +16,7 @@ public class Suma {
   public static void pedirDatos(){
 
     Scanner in = new Scanner(System.in);
-    csuma obj = new csuma();
+    cresta obj = new cresta();
 
 
     System.out.print("Inserte el primer numero: ");
@@ -41,11 +31,9 @@ public class Suma {
   }
 
   public static void mostrar(){
-    System.out.println("la suma es: "+ obj.getSuma());
+    System.out.println("la resta es: "+ obj.getResta());
 
   }
-
-    
 
     
     
