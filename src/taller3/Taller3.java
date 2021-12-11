@@ -31,7 +31,7 @@ public class Taller3 {
         Scanner in = new Scanner(System.in);
         int election = in.nextInt();
         System.out.println("\n");
-        System.out.println("1 para Sumar\n2 para Restar\n3 para multiplicar\n4 para dividir");
+        System.out.println("1 para Sumar\n2 para Restar\n3 para Multiplicar\n4 para Dividir");
         System.out.println("\n");
 
         int operation = in.nextInt();
