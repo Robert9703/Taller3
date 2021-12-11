@@ -1,7 +1,7 @@
 package taller3.decimal;
 /**
  *
- * @author alexander
+ * @author Alexander
  */
 public class CMultiplicacion {
     private float num1,num2,multiplicacion;

@@ -1,7 +1,7 @@
 package taller3.decimal;
 /**
  *
- * @author alexander
+ * @author Alexander
  */
 public class CResta {
     private float num1,num2,resta;

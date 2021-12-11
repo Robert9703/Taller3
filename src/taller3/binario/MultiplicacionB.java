@@ -1,7 +1,7 @@
 package taller3.binario;
 /**
  *
- * @author andres
+ * @author Andres
  */
 public class MultiplicacionB {
     public static String multiply(String s1, String s2) {

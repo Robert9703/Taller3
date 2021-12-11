@@ -2,7 +2,7 @@ package taller3.decimal;
 
 /**
  *
- * @author alexander
+ * @author Alexander
  */
 
 public class Resta {

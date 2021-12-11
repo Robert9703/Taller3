@@ -5,7 +5,7 @@ import taller3.Utils;
 
 /**
  *
- * @author andres
+ * @author Andres
  */
 public class RestaB {
 

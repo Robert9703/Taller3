@@ -1,9 +1,8 @@
 package taller3.binario;
 
-import java.util.Scanner;
 /**
  *
- * @author andres
+ * @author Andres
  */
 import taller3.Utils;
 public class DivisionB {

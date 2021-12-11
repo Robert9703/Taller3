@@ -1,7 +1,7 @@
 package taller3.binario;
 /**
  *
- * @author andres
+ * @author Andres
  */
 import taller3.Utils;
 
@@ -35,7 +35,6 @@ public class SumaB {
         }
         String cleanedSum = this.cleanZeros(result.toString());
         return cleanedSum;
-        // return result.toString();
     }
 
     private int max(int a, int b) {
