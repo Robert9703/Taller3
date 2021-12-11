@@ -26,10 +26,14 @@ public class Taller3 {
      * @throws Exception
      */
     public static void main(String[] args) throws Exception {
-        System.out.println("1 para operaciones con decimales \n 2 para operaciones con binarios");
+        System.out.println("1 para operaciones con decimales\n2 para operaciones con binarios");
+        System.out.println("\n");
         Scanner in = new Scanner(System.in);
         int election = in.nextInt();
-        System.out.println("1 para Sumar \n 2 para Restar \n 3 para multiplicar \n 4 para dividir");
+        System.out.println("\n");
+        System.out.println("1 para Sumar\n2 para Restar\n3 para multiplicar\n4 para dividir");
+        System.out.println("\n");
+
         int operation = in.nextInt();
         String[] operations = {"Sumar","Restar","Multiplicar","Dividir"} ;
         if(election == 1){
@@ -40,9 +44,9 @@ public class Taller3 {
             operationDecimal(num1, num2, operation);
         }else{
             System.out.println("Primer binario a "+operations[operation - 1]);
-            String bin1 = in.nextLine();
+            String bin1 = in.next();
             System.out.println("Segundo binario a "+operations[operation - 1]);
-            String bin2 = in.nextLine();
+            String bin2 = in.next();
             operationBinary(bin1, bin2, operation);
         }
         in.close();

@@ -22,7 +22,7 @@ public class RestaB {
             int binI = extractInteger(binary1, i);
             int bin2I = extractInteger(binary2, i);
             int num = binI - bin2I - carry;
-            result = num % 2 == 1 ? "1" + result : "0" + result;
+            result = Math.floorMod(num, 2) == 1 ? "1" + result : "0" + result;
             carry = num < 0 ? 1 : 0;
 
         }
