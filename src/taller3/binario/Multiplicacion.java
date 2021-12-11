@@ -1,5 +1,8 @@
 package taller3.binario;
-
+/**
+ *
+ * @author andres
+ */
 public class Multiplicacion {
     public static String multiply(String s1, String s2) {
         Suma s = new Suma();

@@ -1,6 +1,9 @@
-package taller3;
-
-public class cresta {
+package taller3.decimal;
+/**
+ *
+ * @author alexander
+ */
+public class CResta {
     private float num1,num2,resta;
 
     public void setDatos(float num1, float num2){

@@ -1,11 +1,11 @@
 package taller3.binario;
-
-import taller3.Utils;
-
 /**
  *
- * @author alexander
+ * @author andres
  */
+import taller3.Utils;
+
+
 public class Suma {
 
     public String suma(String b1, String b2) {

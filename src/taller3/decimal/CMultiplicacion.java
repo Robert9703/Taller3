@@ -1,6 +1,9 @@
-package taller3;
-
-public class cMultiplicacion {
+package taller3.decimal;
+/**
+ *
+ * @author alexander
+ */
+public class CMultiplicacion {
     private float num1,num2,multiplicacion;
 
     public void setDatos(float num1, float num2){

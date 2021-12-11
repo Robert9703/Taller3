@@ -1,10 +1,4 @@
 package taller3;
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
-
-
 
 /**
  *
@@ -17,6 +11,30 @@ public class Taller3 {
      */
     public static void main(String[] args) {
         System.out.println("Hola");
+        
+    }
+    public static void suma(float num1,float num2) {
+        
+    }
+    public static void suma(String bin1,String bin2) {
+        
+    }
+    public static void resta(float num1,float num2) {
+        
+    }
+    public static void resta(String bin1,String bin2) {
+        
+    }
+    public static void multiplicacion(float num1,float num2) {
+        
+    }
+    public static void multiplicacion(String bin1,String bin2) {
+        
+    }
+    public static void division(float num1,float num2) {
+        
+    }
+    public static void division(String bin1,String bin2) {
         
     }
     

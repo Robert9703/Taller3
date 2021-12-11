@@ -1,6 +1,9 @@
-package taller3;
-
-public class cDivision {
+package taller3.decimal;
+/**
+ *
+ * @author alexander
+ */
+public class CDivision {
     private float num1,num2,division;
 
     public void setDatos(float num1, float num2){

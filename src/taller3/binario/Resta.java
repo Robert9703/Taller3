@@ -1,6 +1,9 @@
 package taller3.binario;
 import taller3.Utils;
-
+/**
+ *
+ * @author andres
+ */
 public class Resta {
     public String resta(String b1,String b2,boolean minus){
         Utils utils = new Utils();
