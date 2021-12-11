@@ -6,21 +6,10 @@ import java.util.Scanner;
  * @author andres
  */
 import taller3.Utils;
-public class Division {
+public class DivisionB {
     static Utils utils = new Utils();
-    static Resta resta = new Resta();
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Binario dividendo");
-        String bin1 = sc.nextLine();
-        System.out.println("Binario divisor");
-        String bin2 = sc.nextLine();
-        sc.close();
-        String res = division("10100","101");
-        System.out.println(res);
-
-    }
-    private static String division(String dividendo,String divisor) {
+   
+    public static String division(String dividendo,String divisor) {
 
         String result ="";
         String temp ="0";
@@ -30,7 +19,7 @@ public class Division {
                 result+= "0";
                 temp += dividendo.charAt(i);
             }else{
-                residuo = resta.resta(temp, divisor, false);
+                residuo = RestaB.resta(temp, divisor, false);
                 if(Integer.parseInt(residuo,2) == 0){
                     temp = String.valueOf(dividendo.charAt(i));
                     result += "1";

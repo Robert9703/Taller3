@@ -3,9 +3,9 @@ package taller3.binario;
  *
  * @author andres
  */
-public class Multiplicacion {
+public class MultiplicacionB {
     public static String multiply(String s1, String s2) {
-        Suma s = new Suma();
+        SumaB s = new SumaB();
         String result = "";
         String zeroSuffix = "";
         for (int i = s2.length() - 1; i >= 0; i--) {

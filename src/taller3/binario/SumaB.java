@@ -6,7 +6,7 @@ package taller3.binario;
 import taller3.Utils;
 
 
-public class Suma {
+public class SumaB {
 
     public String suma(String b1, String b2) {
         Utils utils = new Utils();
